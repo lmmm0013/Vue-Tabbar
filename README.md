@@ -1,11 +1,11 @@
-#引用
+# 引用
 
 ``` javascript
 import MyTabbar from './components/MyTabbar/MyTabbar'
 Vue.use(MyTabbar)
 ```
 
-#示例
+# 示例
 
 ``` html
 <Tabbar>
@@ -27,9 +27,9 @@ Vue.use(MyTabbar)
 </Tabbar>
 ```
 
-#钩子
+# 钩子
 
-###App.vue
+### App.vue
 ``` html
 <Tabbar @change="onTabbarChange">
       <TabbarItem to="/" name="index">
